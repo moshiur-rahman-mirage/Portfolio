@@ -5,6 +5,7 @@ import profilePic from "../../public/images/profile/bg_dev.png";
 import AnimatedText from "@/components/AnimatedText";
 import Link from "next/link";
 import { LinkArrow } from "@/components/icons";
+import Hireme from "@/components/Hireme";
 const inter = Inter({ subsets: ["latin"] });
 
 export default function Home() {
@@ -36,6 +37,7 @@ export default function Home() {
           </div>
         </div>
       </Layout>
+      <Hireme/>
     </main>
   );
 }
