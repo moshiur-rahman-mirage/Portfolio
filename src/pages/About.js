@@ -10,6 +10,7 @@ import {
   useMotionValue,
   useSpring,
 } from "framer-motion";
+import Experience from "@/components/Experience";
 
 
 const AnimatedNumbers = ({ value }) => {
@@ -153,6 +154,7 @@ const About = () => {
           {/* <div> */}
             <Skills />
           {/* </div> */}
+          <Experience/>
         </Layout>
       </main>
     </>
